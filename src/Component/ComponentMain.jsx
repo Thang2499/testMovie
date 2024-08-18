@@ -21,7 +21,7 @@ const ComponentMain = () => {
     const [currentImage, setCurrentImage] = useState(images["familyspy.jpg"]);
     const [currentDescription, setCurrentDescription] = useState("Description for family spy");
     const [movieName,setMoviename] = useState("Spy X Family")
-    // Hàm để cập nhật hình ảnh và mô tả khi bấm vào ComponentChild
+    
     const handleChildClick = (image, description,movieName) => {
         setCurrentImage(image);
         setCurrentDescription(description);
